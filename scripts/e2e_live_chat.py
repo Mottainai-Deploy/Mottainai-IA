@@ -11,8 +11,8 @@ import uuid
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-import jwt
 import httpx
+import jwt
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from config.settings import get_settings  # noqa: E402
